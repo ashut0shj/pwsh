@@ -16,7 +16,7 @@ set -Ux fish_user_paths $PYENV_ROOT/bin $fish_user_paths
 status is-interactive; and pyenv init - | source
 status is-interactive; and pyenv virtualenv-init - | source
 
-
+#aliases
 alias penv="source venv/bin/activate.fish"
 
 function gg
