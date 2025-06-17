@@ -20,6 +20,7 @@ status is-interactive; and pyenv virtualenv-init - | source
 alias penv="source venv/bin/activate.fish"
 
 #functions
+#function got git flow
 function gg
     set msg $argv[1]
     set branch (git rev-parse --abbrev-ref HEAD)
